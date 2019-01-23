@@ -40,7 +40,7 @@ for(i=len-1;i>0;i--)
   else if(a[i]==a[i-1] || a[i]<a[i-1])
   k=k+a[i-1];
 }
-printf("\nEquivalent Decimal Number is %d ",k);
+printf("\nEquivalent Decimal Number is : %d ",k);
 getch();
 return 0;
 }
