@@ -9,6 +9,5 @@ int main()
         printf("%c is an alphabet.",ch);
     else
         printf("%c is not an alphabet.",ch);
-
     return 0;
 }
