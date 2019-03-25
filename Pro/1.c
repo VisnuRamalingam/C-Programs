@@ -1,11 +1,24 @@
-#include<stdio.h>
-main()
+#include <stdio.h>
+#include<string.h>
+int main()
 {
-int i,j,k,n;
+int a1,b1,max=0,i;
 char a[100],b[100];
-scanf("%s",&a);
-scanf("%s",&b);
-or(i=0;a[i]!='\0';i++)
+printf("\nEnter the first string:  ");
+scanf("%s",a);
+printf("\nEnter the second string:  ");
+scanf("%s",b);
+a1=strlen(a);
+b1=strlen(b);
+if(a1>b1)
+{
+max=a1;
+}
+else
+{
+max=b1;
+}
+for(i=0;i<max;i++)
 {
 if(a[i]==b[i])
 {
@@ -16,4 +29,5 @@ else
 break;
 }
 }
+return 0;
 }
